@@ -6,7 +6,7 @@
 /*   By: gasouza <gasouza@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/24 20:12:25 by gasouza           #+#    #+#             */
-/*   Updated: 2022/03/24 20:14:47 by gasouza          ###   ########.fr       */
+/*   Updated: 2022/03/24 20:25:04 by gasouza          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,6 @@ void	ft_is_negative(int n)
 // {
 // 	write(0, &letter, 1);
 // }
-
 // int main(void)
 // {
 // 	ft_is_negative(-10);
