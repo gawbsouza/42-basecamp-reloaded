@@ -21,7 +21,6 @@ RM		= rm -f
 
 OBJS	= $(subst .c,.o,$(addprefix $(SRCS_D)/,$(SRCS)))
 
-.PHONY: all
 all: $(NAME)
 
 $(NAME): $(OBJS) ; $(AR) $@ $^
@@ -31,11 +30,8 @@ $(SRCS_D)/ft_putstr.o : $(INCS_D)/ft_putchar.h
 
 $(OBJS): ; $(CC) $(CFLAGS) -c $(@:.o=.c) -o $@
 
-.PHONY: clean
 clean: ; $(RM) $(OBJS)
-
-.PHONY: fclean
 fclean: clean ; $(RM) $(NAME)
-
-.PHONY: re
 re: fclean $(NAME)
+
+.PHONY: all clean fclean re
