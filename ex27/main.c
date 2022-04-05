@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_display_file.c                                  :+:      :+:    :+:   */
+/*   main.c                                             :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: gasouza <gasouza@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/31 16:20:13 by gasouza           #+#    #+#             */
-/*   Updated: 2022/03/31 21:00:00 by gasouza          ###   ########.fr       */
+/*   Updated: 2022/04/05 19:52:50 by gasouza          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,11 +39,11 @@ int	main(int argc, char *argv[])
 	fd = open(file_path, O_RDONLY);
 	if (fd < 0)
 		return (0);
-	bytes_read = read(fd, buffer, 100);
+	bytes_read = read(fd, buffer, 1024);
 	while (bytes_read > 0)
 	{
 		write(1, buffer, bytes_read);
-		bytes_read = read(fd, buffer, 100);
+		bytes_read = read(fd, buffer, 1024);
 	}
 	close(fd);
 	return (0);
