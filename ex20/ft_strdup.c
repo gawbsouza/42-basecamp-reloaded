@@ -6,7 +6,7 @@
 /*   By: gasouza <gasouza@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/26 17:54:07 by gasouza           #+#    #+#             */
-/*   Updated: 2022/03/29 21:59:34 by gasouza          ###   ########.fr       */
+/*   Updated: 2022/04/05 19:33:33 by gasouza          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,14 +44,3 @@ char	*ft_strdup(char *src)
 	new[index] = '\0';
 	return (new);
 }
-
-// #include <stdio.h>
-// int	main(void)
-// {
-// 	char original[] = "Gabriel Souza";
-// 	char *copy;
-// 	copy = ft_strdup(original);
-// 	printf("%s\n", copy);
-// 	printf("%p %p\n", original, copy);
-// 	return (0);
-// }
