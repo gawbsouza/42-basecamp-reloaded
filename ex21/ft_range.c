@@ -6,7 +6,7 @@
 /*   By: gasouza <gasouza@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/26 18:23:36 by gasouza           #+#    #+#             */
-/*   Updated: 2022/03/26 18:40:13 by gasouza          ###   ########.fr       */
+/*   Updated: 2022/04/05 19:33:44 by gasouza          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,17 +29,3 @@ int	*ft_range(int min, int max)
 	}
 	return (array);
 }
-
-// #include <stdio.h>
-// int	main(void)
-// {
-// 	int	min = 1032;
-// 	int max = 1040;
-// 	int *integers = ft_range(min, max);
-// 	if (integers == NULL)
-// 		return (0);
-// 	for (int i = 0; i < (max - min); i++)
-// 		printf("%d ", integers[i]);
-// 	printf("\n");
-// 	return (0);
-// }
