@@ -6,7 +6,7 @@
 /*   By: gasouza <gasouza@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/30 15:51:58 by gasouza           #+#    #+#             */
-/*   Updated: 2022/03/30 18:29:18 by gasouza          ###   ########.fr       */
+/*   Updated: 2022/04/05 19:34:42 by gasouza          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,18 +25,3 @@ int	ft_count_if(char **tab, int (*f)(char*))
 	}
 	return (pass_count);
 }
-
-// #include <stdio.h>
-// int	start_with_g(char *str)
-// {
-// 	if(*str == 'G' || *str == 'g')
-// 		return (1);
-// 	return (0);
-// }
-// int	main(void)
-// {
-// 	char *strings[] = {"Gabriel", "Larissa", "Maria", "guilherme", 0};
-// 	int	pass = ft_count_if(strings, &start_with_g);
-// 	printf("Strings: %d\n", pass);
-// 	return (0);
-// }
