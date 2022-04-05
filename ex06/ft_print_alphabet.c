@@ -6,7 +6,7 @@
 /*   By: gasouza <gasouza@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/24 15:38:19 by gasouza           #+#    #+#             */
-/*   Updated: 2022/03/24 20:25:35 by gasouza          ###   ########.fr       */
+/*   Updated: 2022/04/05 19:28:29 by gasouza          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,14 +23,3 @@ void	ft_print_alphabet(void)
 		letter++;
 	}
 }
-
-// #include <unistd.h>
-// void	ft_putchar(char letter)
-// {
-// 	write(0, &letter, 1);
-// }
-// int main(void)
-// {
-// 	ft_print_alphabet();
-// 	return (0);
-// }
