@@ -6,7 +6,7 @@
 /*   By: gasouza <gasouza@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/24 20:18:15 by gasouza           #+#    #+#             */
-/*   Updated: 2022/03/24 20:25:16 by gasouza          ###   ########.fr       */
+/*   Updated: 2022/04/05 19:30:31 by gasouza          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,12 +14,3 @@ void	ft_ft(int *nbr)
 {
 	*nbr = 42;
 }
-
-// #include <stdio.h>
-// int main()
-// {
-// 	int val;
-// 	ft_ft(&val);
-// 	printf("val: %d\n", val);
-// 	return (0);
-// }
