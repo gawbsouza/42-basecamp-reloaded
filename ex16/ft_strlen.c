@@ -6,7 +6,7 @@
 /*   By: gasouza <gasouza@student.42sp.org.br>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/25 18:18:06 by gasouza           #+#    #+#             */
-/*   Updated: 2022/03/25 18:26:08 by gasouza          ###   ########.fr       */
+/*   Updated: 2022/04/05 19:32:37 by gasouza          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,11 +24,3 @@ int	ft_strlen(char *str)
 	}
 	return (size);
 }
-
-// #include <stdio.h>
-// int	main(void)
-// {
-// 	char *str = "Tamanho da String";
-// 	printf("Size: %d\n", ft_strlen(str));
-// 	return (0);
-// }
